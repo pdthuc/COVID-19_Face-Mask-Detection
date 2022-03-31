@@ -61,7 +61,7 @@ Ngoài ra, để dữ liệu sát với thực tế, ta còn thu thập dữ li�
   - ResNet (Residual Network) được giới thiệu năm 2015. Hiện tại thì có rất nhiều biến thể của kiến trúc ResNet với số lớp khác nhau như ResNet-18, ResNet-34, ResNet-50, ResNet-101, ResNet-152,...
   - Mạng ResNet là một mạng CNN được thiết kế để làm việc với hàng trăm hoặc hàng nghìn lớp chập. Một vấn đề xảy ra khi xây dựng mạng CNN với nhiều lớp chập sẽ xảy ra hiện tượng Vanishing Gradient (xảy ra ở Backpropagation – Lan truyền ngược) dẫn tới quá trình học tập không tốt. Mạng ResNet ra đời giải quyết vấn đề đó
   - Resnet sẽ đưa ra các “kết nối tắt” để giúp xuyên qua 1 hay nhiều lớp. Các khối có chức năng như vậy được gọi là Residual Block. 
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   
     ![alt text](https://github.com/pdthuc/Project-FaceMaskDetection/blob/master/img_src/2.png?raw=true)
 
   - Mũi tên trong ảnh xuất phát từ đầu và kết thúc tại cuối một khối dư. Nó sẽ bổ sung Input X vào đầy ra của layer. 
